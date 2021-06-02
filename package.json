@@ -1,0 +1,24 @@
+{
+  "name": "os-whatsapp-link-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syarifmaulanamm/os-whatsapp-link-generator.git"
+  },
+  "keywords": [
+    "\"whatsapp",
+    "link",
+    "generator\""
+  ],
+  "author": "syarifmaulanamm@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syarifmaulanamm/os-whatsapp-link-generator/issues"
+  },
+  "homepage": "https://github.com/syarifmaulanamm/os-whatsapp-link-generator#readme"
+}
