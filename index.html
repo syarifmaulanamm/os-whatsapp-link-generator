@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Link Generator</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex w-full h-screen bg-green-50">
+        <div class="flex flex-col justify-center items-center gap-y-5 w-2/4 bg-white rounded-xl p-10 m-20 mx-auto shadow-lg">
+            <h1 class="text-4xl">Whatsapp Follow Up</h1>
+            <form action="https://api.whatsapp.com/send" method="GET" class="flex flex-col gap-y-5 w-full">
+                <div class="flex flex-col gap-y-2">
+                    <label>Nomor Handpone</label>
+                    <input type="number" name="phone" class="border-2 border-gray-300 py-2 px-3 focus:outline-none  rounded-md" />
+                </div>
+                <div class="flex flex-col gap-y-2">
+                    <label>Pesan</label>
+                    <textarea name="text" class="border-2 border-gray-300 py-2 px-3 focus:outline-none rounded-md" rows="5"></textarea>
+                </div>
+                <button class="bg-green-500 text-green-900 hover:bg-green-600 py-2 px-3 rounded-md">Send</button>
+            </form>
+            <div class="text-xs">Made by <span class="text-green-900 font-bold">@syarifmaulanamm</span></div>
+        </div>
+    </div>
+</body>
+</html>
